@@ -6,7 +6,6 @@ cask "middledrag" do
     name "MiddleDrag"
     desc "Middle-click and middle-drag via three-finger trackpad gestures"
     homepage "https://github.com/NullPointerDepressiveDisorder/MiddleDrag"
-    license :public_domain
 
     depends_on macos: ">= :ventura"
 
