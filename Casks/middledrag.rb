@@ -1,6 +1,6 @@
 cask "middledrag" do
-    version "1.3.6"
-    sha256 "1c8b00452f095903f2e5b2102b8bc431bf53726adb96783c4dde22d4574b4f08"
+    version "1.3.7"
+    sha256 "bfce74f9072162db1c9ac44cfe924ed7d7067e3a6b8ec300f98e24aaddf34901"
 
     url "https://github.com/NullPointerDepressiveDisorder/MiddleDrag/releases/download/v#{version}/MiddleDrag-#{version}.zip"
     name "MiddleDrag"
