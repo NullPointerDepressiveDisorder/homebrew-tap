@@ -2,7 +2,7 @@ cask "middledrag" do
     version "1.3.8.2"
     sha256 "25d366eabf0eaca24c393499ea65b5bb1057bc6cc9995fb446bb9294f9ff5422"
 
-    url "https://github.com/NullPointerDepressiveDisorder/MiddleDrag/releases/download/v#{version}/MiddleDrag-.pkg"
+    url "https://github.com/NullPointerDepressiveDisorder/MiddleDrag/releases/download/v#{version}/MiddleDrag-1.3.8.2.pkg"
     name "MiddleDrag"
     desc "Middle-click and middle-drag via three-finger trackpad gestures"
     homepage "https://github.com/NullPointerDepressiveDisorder/MiddleDrag"
