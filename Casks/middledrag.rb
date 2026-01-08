@@ -9,7 +9,7 @@ cask "middledrag" do
 
     depends_on macos: ">= :ventura"
 
-  pkg "MiddleDrag.pkg"
+  pkg "MiddleDrag-1.3.8.2.pkg"
   uninstall pkgutil: "app.middledrag.MiddleDrag"
 
     postflight do
