@@ -1,15 +1,15 @@
 cask "middledrag" do
-    version "1.4.0"
-    sha256 "1ba647772a7c88f924d0c79b2ebde3f227743aa485b4787fee6d03509ed698cb"
+    version "1.4.1"
+    sha256 "9fff486edb99d65b82042bc6dcf20fce3d5ebf436bc6b2e4af5b7afadc23f368"
 
-    url "https://github.com/NullPointerDepressiveDisorder/MiddleDrag/releases/download/v#{version}/MiddleDrag-1.4.0.pkg"
+    url "https://github.com/NullPointerDepressiveDisorder/MiddleDrag/releases/download/v#{version}/MiddleDrag-1.4.1.pkg"
     name "MiddleDrag"
     desc "Middle-click and middle-drag via three-finger trackpad gestures"
     homepage "https://github.com/NullPointerDepressiveDisorder/MiddleDrag"
 
     depends_on macos: ">= :ventura"
 
-  pkg "MiddleDrag-1.4.0.pkg"
+  pkg "MiddleDrag-1.4.1.pkg"
   uninstall pkgutil: "app.middledrag.MiddleDrag"
 
     postflight do
