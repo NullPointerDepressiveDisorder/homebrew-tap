@@ -2,6 +2,17 @@
 
 Custom Homebrew casks by [NullPointerDepressiveDisorder](https://github.com/NullPointerDepressiveDisorder).
 
+## ⚠️ Deprecation Notice
+
+**MiddleDrag** has been added to the official [homebrew-cask](https://github.com/Homebrew/homebrew-cask) repository and is now available directly without needing this tap.
+
+You can now install it with:
+```bash
+brew install --cask middledrag
+```
+
+This tap is maintained for legacy support but is no longer required.
+
 ## Usage
 
 ```bash

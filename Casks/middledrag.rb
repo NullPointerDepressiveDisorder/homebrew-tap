@@ -1,6 +1,8 @@
 cask "middledrag" do
-    version "1.4.1.1"
-    sha256 "df9b43e8725f0910f56068a5f79cc33df4e634e99f60610482a3b60906757190"
+    version "1.3.1"
+    sha256 "d8477f9f78a03713213a7c94998eeb52794a8dc076a7e959b502788cb1d10cf4"
+
+    deprecate! date: "2026-01-30", because: "is now available in homebrew/cask"
 
     url "https://github.com/NullPointerDepressiveDisorder/MiddleDrag/releases/download/v#{version}/MiddleDrag-1.4.1.1.pkg"
     name "MiddleDrag"
